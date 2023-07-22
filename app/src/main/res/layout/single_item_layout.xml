@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:padding="5dp"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/er"
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/item_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Rs 340.0" />
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/item_nam"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Man shirt" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

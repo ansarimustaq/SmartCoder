@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="160dp"
+    android:layout_height="240dp">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/et"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:id="@+id/f_img"
+        />
+    <TextView
+        android:id="@+id/f_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price - 550"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Man Shirt"
+        android:textSize="15dp"/>
+
+</LinearLayout>
